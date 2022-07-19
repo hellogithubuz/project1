@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient( 117deg, white 75%, rgb(206, 0, 0) 25%);
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 40px;
+}
+.navigation .logo img{
+    width: 100px;
+    height: 50px;
+}
+.naw-menu .menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 15px; 
+}
+.naw-menu .menu .naw-item:hover{
+    font-size: 18px;
+}
+.naw-menu{
+    width: 30%;
+    text-decoration: none;
+
+}
+.naw-menu .menu .naw-item a{
+    text-decoration: none;
+    color: rgb(190, 0, 0);
+    font-weight: bold;
+}
+.search form .search-form{
+    border: 3px solid rgb(190, 0, 0);
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+.links a{
+    margin: 0 40px;
+    color: dimgray;
+    text-decoration: none;
+    font-weight: bold;
+}
+.links a:hover{
+    color: black;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+.box1 .text1{
+    font-size: 80px;
+}
+.box1 .text1 a{
+    color: rgb(190, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text2{
+    font-size: 23px;
+    color: dimgray;
+    font-weight: normal;
+    margin: 20px 0;
+}
+.text3{
+    display: flex;
+    margin-top: 30px;
+}
+.text3 h2 a{
+    text-decoration: none;
+    color: rgb(190, 0, 0);
+    border: 3px solid rgb(190, 0, 0);
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.ccc{
+    margin: 0 20px;
+}
+.text3 h2 a:hover{
+    background-color: rgb(190, 0, 0);
+    color: white;
+}
+.a_lincs{
+    color: rgb(190, 0, 0);
+    text-decoration: none;
+    font-weight: normal;
+    margin: 0 100px;
+}
+.a_lincs:hover{
+    font-size: 15px;
+
+}
